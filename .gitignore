@@ -1,0 +1,20 @@
+# data & artifacts
+data/*
+models/*
+reports/figures/*
+reports/forecasts/*
+!reports/.gitkeep
+!reports/figures/.gitkeep
+!reports/forecasts/.gitkeep
+
+# notebooks
+*.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc
+*.pkl
+*.parquet
+*.log
+.env
+.DS_Store
